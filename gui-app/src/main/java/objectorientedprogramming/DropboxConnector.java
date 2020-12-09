@@ -38,8 +38,8 @@ public class DropboxConnector {
      * @return a URL where users get their authorization keys
      */
     public String authorizeUser() {
-        String appKey = "9mm1b8t6rj1ptm0";
-        String appSecret = "7xickax6ooeefi8";
+        String appKey = "xyz";
+        String appSecret = "zyx";
         DbxAppInfo appInfo = new DbxAppInfo(appKey, appSecret);
         DbxRequestConfig requestConfig = new DbxRequestConfig("Shopping-list");
         webAuth = new DbxWebAuth(requestConfig, appInfo);
